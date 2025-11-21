@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalkulator Interaktif</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <div class="display" id="display">0</div>
+
+    <div class="buttons">
+
+      <!-- Memory -->
+      <button class="btn mem" data-action="MC">MC</button>
+      <button class="btn mem" data-action="MR">MR</button>
+      <button class="btn mem" data-action="M+">M+</button>
+      <button class="btn mem" data-action="M-">M-</button>
+
+      <!-- Clear -->
+      <button class="btn operator" data-action="CE">CE</button>
+      <button class="btn operator" data-action="C">C</button>
+
+      <!-- Numbers & Ops -->
+      <button class="btn num">.</button>
+      <button class="btn num">0</button>
+
+      <button class="btn num">1</button>
+      <button class="btn num">2</button>
+      <button class="btn num">3</button>
+      <button class="btn num">4</button>
+
+      <button class="btn num">5</button>
+      <button class="btn num">6</button>
+      <button class="btn num">7</button>
+      <button class="btn num">8</button>
+
+      <button class="btn num">9</button>
+
+      <!-- Operator selalu di kanan -->
+      <button class="btn operator" data-op="÷">÷</button>
+      <button class="btn operator" data-op="×">×</button>
+      <button class="btn operator" data-op="-">-</button>
+      <button class="btn operator" data-op="+">+</button>
+
+      <!-- Tombol = -->
+      <button class="btn equals">=</button>
+
+      <button class="btn operator" data-op="+">+</button>
+    </div>
+
+    <div class="history-box">
+      <h3>History</h3>
+      <ul id="history"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

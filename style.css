@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.calculator {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 330px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.display {
+  background: #eaf8f7;
+  padding: 15px;
+  font-size: 32px;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 55px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* Tombol umum */
+.btn {
+  padding: 18px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e0e0e0;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Tombol memory */
+.mem {
+  background: #c7e9e8;
+  font-weight: bold;
+}
+
+/* Tombol operator */
+.operator {
+  background: #ffd86b;
+  font-weight: bold;
+}
+
+/* Tombol = */
+.equals {
+  background: #4caf50;
+  color: white;
+  font-weight: bold;
+  grid-column: span 2; /* = jadi lebih lebar */
+}
+
+/* Perbaikan layout angka */
+.num {
+  background: #eeeeee;
+}
+
+.history-box {
+  margin-top: 25px;
+  background: #fafafa;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 160px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+}
+
+.history-box h3 {
+  margin-top: 0;
+  text-align: center;
+}
