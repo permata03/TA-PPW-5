@@ -12,8 +12,8 @@ Kalkulator ini juga mendukung penggunaan keyboard. Angka dan operator (+, -, *, 
 
 Struktur program terdiri dari tiga file utama yaitu:
 
-index.html untuk tampilan kalkulator di browser
-style.css untuk mengatur desain tampilan
-script.js untuk menangani proses perhitungan dan fungsi tombol
+index.html untuk tampilan kalkulator di browser, 
+style.css untuk mengatur desain tampilan, dan 
+script.js untuk menangani proses perhitungan dan fungsi tombol.
 
 Aplikasi bisa langsung dijalankan tanpa instalasi apa pun. Cukup buka file index.html melalui browser dan kalkulator siap digunakan.
