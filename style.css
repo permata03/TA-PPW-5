@@ -30,7 +30,6 @@ body {
   gap: 12px;
 }
 
-/* Tombol umum */
 .btn {
   padding: 18px;
   font-size: 20px;
@@ -45,19 +44,16 @@ body {
   transform: scale(1.05);
 }
 
-/* Tombol memory */
 .mem {
   background: #c7e9e8;
   font-weight: bold;
 }
 
-/* Tombol operator */
 .operator {
   background: #ffd86b;
   font-weight: bold;
 }
 
-/* Tombol = */
 .equals {
   background: #4caf50;
   color: white;
@@ -65,7 +61,6 @@ body {
   grid-column: span 2; /* = jadi lebih lebar */
 }
 
-/* Perbaikan layout angka */
 .num {
   background: #eeeeee;
 }
@@ -84,3 +79,4 @@ body {
   margin-top: 0;
   text-align: center;
 }
+
